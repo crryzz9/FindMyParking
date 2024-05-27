@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <head>
+        <title>Flex</title>
+        <link rel="stylesheet" type="text/css" href="flex.css">
+        <link rel="icon" type="image/png" href="images/logo.png">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    </head>
+    <body>
+        <div class="heading" id="home">
+            <div class="fantasma">
+                <i class='bx bx-map'></i>
+                <p>Flexweb <span>by FindMyParking</span></p>
+            </div>
+            <div class="iconos">
+                <div class="icono">
+                    <a href="#home"><i class='bx bx-home-smile'></i></a>
+                </div>
+                <div class="icono">
+                    <a href="#sobre-nosotros"><i class='bx bxs-contact'></i></a>
+                </div>
+                <div class="icono">
+                    <a href="#creadores"><i class='bx bx-male'></i></a>
+                </div>
+                <div class="icono">
+                    <a href="#flex-container"><i class='bx bx-info-circle' ></i></a>
+                </div>
+                <div class="icono">
+                    <a href="#ubi"><i class='bx bxs-map-pin'></i></a>
+                </div>
+                <div class="icono">
+                    <a href="#form"><i class='bx bx-mail-send'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="sobre-nosotros" id="sobre-nosotros">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="info">
+                <h2>Nom</h2>
+                <p>FindMyParking</p>
+                <h2>Eslogan</h2>
+                <p>"Aparcar nunca fue tan fácil."</p>
+            </div>
+        </div>
+        <section class="flex-container" id="flex-container">
+                <div class="caja">
+                    <p><h1>Que és FindMyParking?</h1>Consisteix d’una extensió on tinguis l’opció d’activar per veure els llocs per aparcar disponibles en una zona determinada propera.</p>
+                </div>
+                <div class="caja">
+                    <p><h1>¿Com funciona?</h1>El nostre projecte se sosté d'un sensor afegit a la carretera on els cotxes aparquen per poder-lo marcar al google maps</p>
+                </div>
+                <div class="caja">
+                    <p><h1>¿Innovació? ¿Diferent?</h1>El nostre programa té: Notificacions a temps real. Una IA totalmente independent. Qualificacions de altres perso</p>
+                </div>
+                <div class="caja">
+                    <p><h1>Competencia</h1>Nostra empresa busca persones competents en l'industria, no solament som competents si no que també som justos amb els nostres treballadors.</p>
+                </div>
+        </section>
+        <section id="creadores" class="creadores">
+            <div>
+                <img src="images/jidion2.jpg" alt="">
+                <h2>Óscar Rueda</h2>
+                <h3>Descargar CV</h3>
+                <a href="pdf/OscarRueda.pdf" download="oscarrueda.pdf"><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="victor">
+                <img src="images/jidion1.jpg" alt="">
+                <h2>Víctor Reig</h2>
+                <h3>Descargar CV</h3>
+                <a href="pdf/curriculumvictorfindmyparking.pdf" download="victorreig.pdf"><i class='bx bxs-download'></i></a>
+            </div>
+        </section>
+        <div class="ubi" id="ubi">
+            <p>Nos encontramos en...</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11971.305518044059!2d2.192221293933252!3d41.3995767346979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3154b13aea1%3A0x7a6055adf5edd733!2sPoblenou%2C%20Sant%20Mart%C3%AD%2C%20Barcelona!5e0!3m2!1sca!2ses!4v1716291880781!5m2!1sca!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form-container" id="form">
+            <form action="https://formspree.io/f/meqywkwy" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <footer>
+            <p>Powered by &copy; FindMyParking</p>
+            <a href="pdf/Proyecto idea de negocio óscar y Víctor entrega final.pdf" download="FindMyParking.pdf" target="_blank"><i class='bx bxs-file-doc'></i></a>
+            <i class='bx bxs-up-arrow bx-fade-down' ></i>
+            <h3>Descarga el documento</h3>
+        </footer>
+    </body>
